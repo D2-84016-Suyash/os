@@ -1,0 +1,199 @@
+
+ 1785  mkdir file.txt
+ 1786  suyash
+ 1787  cat >file.txt
+ 1788  cat > file.txt
+ 1789  cat > file2.txt
+ 1790  cat >> file2.txt
+ 1791  cat  file2.txt
+ 1792  ls -l
+ 1793  touch file2.txt
+ 1794  ls -l
+ 1795  mkdir one
+ 1796  pwd
+ 1797  ls
+ 1798  cd one
+ 1799  touch 1.txt 11.txt 111.txt
+ 1800  mkdir two
+ 1801  cd two
+ 1802  touch 2.txt 22.txt 222.txt
+ 1803  mkdir three
+ 1804  touch 3.txt 33.txt 333.txt
+ 1805  mkdir four
+ 1806  cd four
+ 1807  touch 4.txt 44.txt 444.txt
+ 1808  mkdir five
+ 1809  cd five
+ 1810  touch 5.txt 55.txt 555.txt
+ 1811  cd
+ 1812  pwd
+ 1813  cd ~
+ 1814  pwd
+ 1815  ls
+ 1816  ls folder/one/two/three/four/five
+ 1817  ls folder/one/two/three/four/five/
+ 1818  ls /home/suyash/folder/one/two/three/four/five/
+ 1819  ls /home/suyash/Desktop/folder/one/two/three/four/five/
+ 1820  cd /home/suyash/Desktop/folder/one/two/three/four/
+ 1821  cat > 44.txt
+ 1822  cd five
+ 1823  rm 555.txt
+ 1824  ls
+ 1825  cat > .././three 3.txt
+ 1826  cat > ../../three 3.txt
+ 1827  cat > .././
+ 1828  cat > .././ 3.txt
+ 1829  cat > .././3.txt
+ 1830  cat .././3.txt
+ 1831  cat > ../../3.txt
+ 1832  cat ../../3.txt
+ 1833  ls ../../../
+ 1834  rm ../../../222.txt
+ 1835  ls ../../../
+ 1836  cd ../../../../
+ 1837  pwd
+ 1838  rm -R two/three/four/five
+ 1839  tree
+ 1840  rm -R two/three/four
+ 1841  tree
+ 1842  cd
+ 1843  pwd
+ 1844  touch Desktop/folder/one/two/three/3.txt
+ 1845  ls Desktop/folder/one/two/three
+ 1846  ls -l   Desktop/folder/one/two/three
+ 1847  init 0
+ 1848  git pull
+ 1849  exit
+ 1850  ls -l 
+ 1851  ls 
+ 1852  ls -l -d
+ 1853  ls
+ 1854  is
+ 1855  ls -l
+ 1856  ls 
+ 1857  ls -l
+ 1858  ls -l -d
+ 1859  ls -d
+ 1860  ls 
+ 1861  ls -l -S -h -r
+ 1862  ls -l -S -h 
+ 1863  ls -l -u
+ 1864  ls -l -u -h
+ 1865  ls -l -S -h >> assignment_2.txt
+ 1866  ls -l -u -h
+ 1867  ls -l -u 
+ 1868  man ls -u
+ 1869  ls -s
+ 1870  ls -l -s
+ 1871  ls -l -s -h
+ 1872  man ls -u
+ 1873  man ls -s
+ 1874  ls -l -s -h
+ 1875  ls -l -s -a -h
+ 1876  man ls
+ 1877  ls -l -S -a -h
+ 1878  ls -l -S -a -h >>assignment_2.txt
+ 1879  ls -l -i -h >>assignment_2.txt
+ 1880  ls -l
+ 1881  ls PG-DAC
+ 1882  ls PG-DAC >>assignment_2.txt
+ 1883  mkdir one 
+ 1884  cd one
+ 1885  touch 1.txt 11.txt 111.txt 
+ 1886  mkdir two
+ 1887  cd 
+ 1888  touch 2.txt 22.txt 222.txt 
+ 1889  mkdir three
+ 1890  cd three
+ 1891  touch 3.txt 33.txt 333.txt
+ 1892  mkdir four
+ 1893  cd four
+ 1894  touch 4.txt 44.txt 444.txt 
+ 1895  mkdir five
+ 1896  cd five
+ 1897  touch 5.txt 55.txt 555.txt
+ 1898  cd
+ 1899  pwd
+ 1900  ls /home/suyash/Desktop/one/two/three/four/five
+ 1901  ls /home/suyash/Desktop/one/two/three/four/five/
+ 1902  ls /home/suyash/desktop/one/two/three/four/five/
+ 1903  ls home/suyash/desktop/one/two/three/four/five/
+ 1904  ls home/Desktop/one/two/three/four/five/
+ 1905  /home/suyash/Desktop/one/two/three/four/five/
+ 1906  ls /home/suyash/Desktop/one/two/three/four/five/
+ 1907  ls -l /home/suyash/Desktop/one/two/three/four/five/
+ 1908  ls -l /home/suyash/Desktop/one/two/three/four/five/ >>assignment_2.txt
+ 1909  cat >> /home/suyash/Desktop/one/two/three/four/44.txt 
+ 1910  cat  /home/suyash/Desktop/one/two/three/four/44.txt 
+ 1911  cat  /home/suyash/Desktop/one/two/three/four/44.txt >> assignment_2.txt
+ 1912  rm  /home/suyash/Desktop/one/two/three/four/five/555.txt
+ 1913  cd  /home/suyash/Desktop/one/two/three/four/five/
+ 1914  cat  >>/home/suyash/Desktop/one/two/three/3.txt
+ 1915  ls -l -h /home/suyash/Desktop/one/two
+ 1916  rm  /home/suyash/Desktop/one/two/222.txt
+ 1917  cd  /home/suyash/Desktop/one
+ 1918  rm -R  /home/suyash/Desktop/one/two/three/four/five
+ 1919  rm -R  /home/suyash/Desktop/one/two/three/four
+ 1920  cd
+ 1921  touch  /home/suyash/Desktop/one/two/three/3.txt
+ 1922  ls
+ 1923  man ls
+ 1924  ls -A
+ 1925  ls -A -l -h
+ 1926  exit
+ 1927  mv file10.txt file10.html
+ 1928  ln -s
+ 1929  man ln
+ 1930  ln -s file10.html shortcut
+ 1931  stat
+ 1932  stat file10.html
+ 1933  stat file10.html -h
+ 1934  stat file10.html 
+ 1935  ln file10.html hardlink
+ 1936  ls -l -h
+ 1937  touch file10.html
+ 1938  ls -l -h
+ 1939  touch createemptyfile.txt
+ 1940  cat >>createemptyfile.txt
+ 1941  tail -n 5
+ 1942  tail -n -5 createemptyfile.txt
+ 1943  man init
+ 1944  clear
+ 1945  whoiam
+ 1946  whoami
+ 1947  tty
+ 1948  who am i
+ 1949  man who am i
+ 1950  who -am -i
+ 1951  who am -i
+ 1952  who am i
+ 1953  users
+ 1954  who
+ 1955  cat email.txt
+ 1956  cat >email.txt
+ 1957  grep "@" email.txt
+ 1958  cat emil.txt
+ 1959  cat email.txt
+ 1960  cat>> email.txt
+ 1961  grep "@" email.txt
+ 1962  grep "^s" email.txt
+ 1963  grep "m$" email.txt
+ 1964  cat>> email.txt
+ 1965  grep "^is$" email.txt
+ 1966  grep "^com$" email.txt
+ 1967  grep "s.a" email.com
+ 1968  grep "s.a" email.txt
+ 1969  grep "s.y" email.txt
+ 1970  grep"s[u,o]m" email.txt
+ 1971  greps "s[u,o]m" email.txt
+ 1972  grep "s[u,o]m" email.txt
+ 1973  grep "s[uo]m" email.txt
+ 1974  grep "s[uo]b" email.txt
+ 1975  grep "s[uo]u" email.txt
+ 1976  init0
+ 1977  init 0
+ 1978  git pull
+ 1979  ls | grep "^d"
+ 1980  ls –l | grep "^d"
+ 1981  ls –l | grep "#d"
+ 1982  ls –l | grep "*d"
